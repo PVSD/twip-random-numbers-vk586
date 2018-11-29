@@ -49,17 +49,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // System.out.println("The average amount of times the loop had to run was " + lCount / run + " times.");
         System.out.println("10 loops: " + runLoop(10));
         System.out.println("100 loops: " + runLoop(100));
         System.out.println("1000 loops: " + runLoop(1000));
         System.out.println("10000 loops: " + runLoop(10000));
-
-        /*
-        As the amount of times the program is run increases, the spread of results decreases to a range between 517 - 520.
-        This is because the range in the average amount of times the loop was run shrinks with more and more runs, just like
-        how repeating a science experiment with multiple trials yields more accuracy.
-        */
 
     }
 }
